@@ -177,9 +177,21 @@ end
 ## Measurement
 
 export ComputationalBasis
+
+"""
+    ComputationalBasis
+
+A type used to specify the measure on computational basis.
+"""
 struct ComputationalBasis end
 
 export AllLocs
+
+"""
+    AllLocs
+
+A type to represent all locations, used in e.g. measure operations.
+"""
 struct AllLocs end
 
 export measure, measure!, measure_remove!, measure_collapseto!
